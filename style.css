@@ -1,0 +1,103 @@
+h1 {
+    text-align: center;
+    color: #00008B; /* Darker blue heading color */
+  }
+  h2{
+    color: #2378c7;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eaf1fa; /* Light pastel blue background color */
+  }
+  
+  .form-container {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 1px solid #ccc; /* Vertical line */
+  }
+  
+  .details-container {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #04457b; /* Medium blue label color */
+  }
+  
+  .radio-group,
+  .checkbox-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .radio-group input[type="radio"],
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .container input[type="text"],
+  .container input[type="email"],
+  .container input[type="tel"],
+  .container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #d5e2f1; /* Lighter pastel blue input field background color */
+    color: #4682b4; /* Medium blue text color */
+  }
+  
+  .container input[type="submit"],
+  .container input[type="button"] {
+    background-color: #4d8cc8; /* Pastel blue button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .container p {
+    font-size: 14px;
+    color: #2378c7; /* Darker blue text color */
+  }
+  
+  #output {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d5e2f1; /* Lighter pastel blue output background color */
+  }
+  
+  #output p {
+    margin-bottom: 5px;
+    color: #2378c7; /* Darker blue text color */
+  }
+  
+  #output hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #b7c8de; /* Lighter pastel blue horizontal line color */
+  }
+  
